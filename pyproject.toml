@@ -12,7 +12,10 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
 ]
 dynamic = ["version"]
-dependencies = ["matplotlib>=2.1"]
+dependencies = [
+    "matplotlib>=3.2.2",
+    "numpy>=1.19.3",
+]
 
 [project.urls]
 "Homepage" = "https://corner.readthedocs.io"
